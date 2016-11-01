@@ -1,0 +1,53 @@
+html, body {
+    background-color: antiquewhite;
+    margin: 3px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+    height: 50%;
+}
+.wrapper {
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border: solid 1px darkgoldenrod;
+}
+.header {
+    background: url("images_big/header.jpg") no-repeat top center;
+    width: 100%;
+}
+
+.header h1 {
+    color: #F65A5B ;
+    font-size: 64px;
+    margin: 0 0 10px 0;
+    padding: 20px 0;
+    line-height: 60px;
+    width: 50%;
+}
+
+.slogan {
+    color: darkmagenta ;
+    font-size: 24px;
+    margin: 0 auto;
+    line-height: 60px;
+    width: 40%;
+}
+.price {
+font-weight: bolder;
+}
+.discount {
+    color: red;
+}
+.name {
+    font-weight: bold;
+}
+.navigation {
+    color: darkmagenta ;
+    font-size: 24px;
+    padding 30px 0;
+}
+a {
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+}

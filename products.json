@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Meizu M3s 16Gb Gold",
+    "price": "3200 UAH",
+    "image_big": "images_big/meizu_1_big.jpg",
+    "images_small": "images_small/meizu_1_small.jpg",
+    "discount": "- 2%",
+    "categoryId": "1"
+  },
+  {
+    "name": "Meizu Pro 6 64Gb Black",
+    "price": "8999 UAH",
+    "image_big": "images_big/meizu_2_big.jpg",
+    "images_small": "images_small/meizu_2_small.jpg",
+    "discount": "- 5%",
+    "categoryId": "1"
+  },
+  {
+    "name": "Meizu M3e 16Gb Gray",
+    "price": "7199 UAH",
+    "image_big": "images_big/meizu_3_big.jpg",
+    "images_small": "images_small/meizu_3_small.jpg",
+    "discount": "+ 200 BONUS!",
+    "categoryId": "1"
+  },
+
+  {
+    "name": "Meizu M3e 32Gb Gray",
+    "price": "5400 UAH",
+    "image_big": "images_big/meizu_4_big.jpg",
+    "images_small": "images_small/meizu_4_small.jpg",
+    "discount": "- 2%",
+    "categoryId": "1"
+  },
+  {
+    "name": "Apple iPhone 7",
+    "price": "21999 UAH",
+    "image_big": "images_big/apple_1_big.jpg",
+    "images_small": "images_small/apple_1_small.jpg",
+    "discount": "-",
+    "categoryId": "2"
+  },
+  {
+    "name": "Apple iPhone 6",
+    "price": "1599 UAH",
+    "image_big": "images_big/apple_2_big.jpg",
+    "images_small": "images_small/apple_2_small.jpg",
+    "discount": "- 5%",
+    "categoryId": "2"
+  },
+  {
+    "name": "Apple iPhone SE 16Gb ",
+    "price": "13299 UAH",
+    "image_big": "images_big/apple_3_big.jpg",
+    "images_small": "images_small/apple_3_small.jpg",
+    "discount": "+ 200 BONUS!",
+    "categoryId": "2"
+  },
+  {
+    "name": "Apple iPhone 6s Plus 16GB ",
+    "price": "20999 UAH",
+    "image_big": "images_big/apple_4_big.jpg",
+    "images_small": "images_small/apple_4_small.jpg",
+    "discount": "2%",
+    "categoryId": "2"
+  },
+  {
+    "name": "Xiaomi Mi4c 16Gb (Black)",
+    "price": "3199 UAH",
+    "image_big": "images_big/xiaomi_1_big.jpg",
+    "images_small": "images_small/xiaomi_1_small.jpg",
+    "discount": "-",
+    "categoryId": "3"
+  },
+  {
+    "name": "Xiaomi Redmi 3S 16Gb (Gold)",
+    "price": "3399 UAH",
+    "image_big": "images_big/xiaomi_2_big.jpg",
+    "images_small": "images_small/xiaomi_2_small.jpg",
+    "discount": "- 5%",
+    "categoryId": "3"
+  },
+  {
+    "name": "Xiaomi Redmi Note 3 16Gb (Gray)",
+    "price": "3999 UAH",
+    "image_big": "images_big/xiaomi_3_big.jpg",
+    "images_small": "images_small/xiaomi_3_small.jpg",
+    "discount": "+ 200 BONUS!",
+    "categoryId": "3"
+  },
+  {
+    "name": "Xiaomi Redmi Pro 32GB (Gold)",
+    "price": "8499 UAH",
+    "image_big": "images_big/xiaomi_4_big.jpg",
+    "images_small": "images_small/xiaomi_4_small.jpg",
+    "discount": "2%",
+    "categoryId": "3"
+  },
+  {
+    "name": "Samsung J120H Galaxy J1 (2016) Black",
+    "price": "2799 UAH",
+    "image_big": "images_big/samsung_1_big.jpg",
+    "images_small": "images_small/samsung_1_small.jpg",
+    "discount": "-4%",
+    "categoryId": "4"
+  },
+  {
+    "name": "Samsung J510H Galaxy J5 (2016) Black",
+    "price": "5999 UAH",
+    "image_big": "images_big/samsung_2_big.jpg",
+    "images_small": "images_small/samsung_2_small.jpg",
+    "discount": "- 8%",
+    "categoryId": "4"
+  },
+  {
+    "name": "Samsung A510F Galaxy A5 (2016) Black",
+    "price": "9999 UAH",
+    "image_big": "images_big/samsung_3_big.jpg",
+    "images_small": "images_small/samsung_3_small.jpg",
+    "discount": "+ 200 BONUS!",
+    "categoryId": "4"
+  },
+  {
+    "name": "Samsung G930 Galaxy S7 Duos 32Gb (Black Onix)",
+    "price": "18999 UAH",
+    "image_big": "images_big/samsung_3_big.jpg",
+    "images_small": "images_small/samsung_4_small.jpg",
+    "discount": "12%",
+    "categoryId": "4"
+  }
+  ]

@@ -1,0 +1,5 @@
+<ul id="categories">
+    <li ng-repeat="category in mc.categories">
+        <a ui-sref="products" ng-click="mc.getProducts($index)">{{category.name}}</a>
+    </li>
+</ul>

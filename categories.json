@@ -1,0 +1,23 @@
+{
+  "1":{
+    "name": "Meizu",
+    "id": "1",
+    "images_small": "images_small/meizu_1_small.jpg"
+  },
+  "2":{
+    "name": "Apple",
+    "id": "2",
+    "images_small": "images_small/apple_1_small.jpg"
+  },
+  "3":{
+    "name": "Xiaomi",
+    "id": "3",
+    "images_small": "images_small/xiaomi_1_small.jpg"
+  },
+
+  "4":{
+    "name": "Samsung",
+    "id": "4",
+    "images_small": "images_small/samsung_1_small.jpg"
+  }
+}
