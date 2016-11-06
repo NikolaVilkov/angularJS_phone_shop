@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <title>AngularJS Mobile device market</title>
     <link href="styles.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/MainController.js"></script>
-    <script src="js/Service.js"></script>
+    <script src="js/MainService.js"></script>
+    <script src="js/ZoomDirective.js"></script>
 </head>
+<div class="header"> <center><h1>Shop phones</h1></center>
+    <p class="slogan">Welcome to our online store, where you can choose a mobile phone for the lowest price!</p>
+</div>
 
     <div class="wrapper">
-        <div class="header"> <center><h1>Shop phones</h1></center>
-            <p class="slogan">Welcome to our online store, where you can choose a mobile phone for the lowest price!</p>
-        </div>
-        <body class="main" ng-controller="MainController as mc">
-            <a class="navigation" ui-sref="categories" id="address">The full catalog of our shop (Back to home)</a>
-            <div class="view" ui-view></div>
+        <body class="main" ng-controller="MainController as vm">
+            <a ui-sref="categories" id="address">The full catalog of our shop (Back to home)</a>
+            <div ui-view></div>
             <div class="footer">
             </div>
         </body>

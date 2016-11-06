@@ -1,5 +1,12 @@
-</br>
-<image ng-src="{{mc.product.image_big}}"></image>
-<p class="name">Model Name: {{mc.product.name}}</p>
-<p class="price">Price: {{mc.product.price}}</p>
-<p class="discount">Discount: {{mc.product.discount}}</p>
+<div id="product">
+    <p class="name">Phone model:{{vm.product.name}}</p>
+    <br/>
+    <p class="price">Price: {{vm.product.price}}</p>
+    <br/>
+    <p class="discount">Discount: {{vm.product.discount}}</p>
+    <br/>
+    <input type="range" min="1" max="2" step="0.1" ng-model="vm.stepValue" />
+    <br/>
+        <image  ng-src="{{item.images_big}}"></image>
+    <zoom-image></zoom-image>
+</div>

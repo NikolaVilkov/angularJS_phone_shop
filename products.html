@@ -1,9 +1,20 @@
-<div ng-repeat="item in mc.itemsToShow">
-    <a ui-sref="product" ng-click="mc.getProduct($index)">
-        <p class="name">{{item.name}}</p>
-        <image class="image" ng-src="{{item.images_small}}"></image>
-    </a>
-</div>
-<div id="list">
-    <a ng-repeat="index in mc.indexes" ng-click="mc.getItemsToShow($index)">{{index.index}}</a>
+<p class="name">{{vm.categories[vm.categoryId+1].name}}</p>
+<p>Search Phone: <input type="text" ng-model="vm.filterByName" ng-change="vm.getProducts(vm.categoryId)" /></p>
+<div id="products">
+    <div id="items">
+        <div ng-repeat="item in vm.itemsToShow">
+            <a ui-sref="product" ng-click="vm.getProduct(vm.countOnPage*vm.productsIndex+$index)">
+                <p>{{item.name}}</p>
+                <image class="productsIcon" ng-src="{{item.images_small}}"></image>
+            </a>
+        </div>
+    </div>
+    <div id="indexes">
+        <a ng-class="{
+                        'indexesToClick': $index!==vm.productsIndex
+                     }"
+           ng-repeat="index in vm.indexes" ng-click="vm.getItemsToShow($index)">
+            {{index.index}}
+        </a>
+    </div>
 </div>
